@@ -4,3 +4,46 @@
 html{
     font-size: 16px;
 }
+.input-container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    outline: none;
+}
+
+.results-container {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.search-result {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.search-result__item {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.error-message {
+    color: #d9534f;
+    font-weight: bold;
+}
+
+.no-results {
+    font-style: italic;
+    color: #555;
+}
